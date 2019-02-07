@@ -33,6 +33,7 @@ class IndexController extends AbstractActionController
      */
     public function indexAction()
     {
+
         $test = $this->googleAgendaService->getGoogleAgenda();
         
         return new ViewModel([
