@@ -2,7 +2,7 @@
 
 namespace GoogleAgendaApi\Service;
 
-use Zend\ServiceManager\ServiceLocatorInterface;
+use Laminas\ServiceManager\ServiceLocatorInterface;
 
 class googleAgendaService implements googleAgendaServiceInterface {    
     

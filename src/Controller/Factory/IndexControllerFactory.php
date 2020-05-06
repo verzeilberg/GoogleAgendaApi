@@ -3,7 +3,7 @@ namespace GoogleAgendaApi\Controller\Factory;
 
 use Interop\Container\ContainerInterface;
 use GoogleAgendaApi\Controller\IndexController;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 use GoogleAgendaApi\Service\googleAgendaService;
 /**
  * This is the factory for AuthController. Its purpose is to instantiate the controller
